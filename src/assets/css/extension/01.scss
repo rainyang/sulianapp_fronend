@@ -1,0 +1,736 @@
+// 背景图片样式
+#extension-box {
+  //头部
+  #header {
+    background-color: #fff;
+    padding-top: 0.625rem;
+    .top {
+      margin: 0 auto;
+      width: 21.5625rem;
+      height: 5.5rem;
+      border-radius: 0.5rem;
+      background: #f15353;
+      padding: 1.25rem 0.625rem;
+      display: flex;
+      position: relative;
+      align-items: center;
+      color: #333;
+      .change_icon {
+        background: rgba(51, 51, 51, 0.16);
+        color: #fff;
+        font-size: 12px;
+        border-radius: 0.625rem 0 0 0.625rem;
+        padding: 0.125rem 0.625rem;
+        position: absolute;
+        right: 0;
+        top: 0.625rem;
+        span {
+          letter-spacing: 0.125rem;
+        }
+      }
+    }
+    .img {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 1.875rem;
+      border: solid 0.125rem #fff;
+      overflow: hidden;
+    }
+    .header-info {
+      margin-left: 0.625rem;
+      color: #fff;
+      font-size: 14px;
+      text-align: left;
+      li {
+        height: 1.5rem;
+        line-height: 1.5rem;
+      }
+      .header-name {
+        max-width: 160px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-weight: bold;
+        font-size: 18px;
+      }
+      span {
+        padding: 0.125rem 0.375rem;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 1.25rem;
+        font-size: 12px;
+      }
+    }
+    .share {
+      position: absolute;
+      right: 0;
+      display: flex;
+      background-color: rgba(255, 255, 255, 0.2);
+      height: 1.875rem;
+      line-height: 1.875rem;
+      border-radius: 0.8125rem 0 0 0.8125rem;
+      padding: 0 0.625rem;
+      color: #fff;
+      i {
+        font-size: 1.25rem;
+        color: #fff;
+        line-height: 1.875rem;
+        margin-right: 0.375rem;
+      }
+    }
+  }
+  .income {
+    border-radius: 1rem 1rem 0 0;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    padding: 0.875rem 0;
+    .right {
+    }
+    ul {
+      width: 36%;
+      font-size: 14px;
+      text-align: center;
+      li {
+        font-size: 18px;
+        line-height: 1.625rem;
+        small {
+          font-size: 12px;
+        }
+      }
+      .header-top {
+        font-size: 12px;
+        color: #8c8c8c;
+      }
+    }
+    .btn {
+      width: 24%;
+      margin-top: 0.875rem;
+      text-align: right;
+      button {
+        display: flex;
+        background-color: #f15353;
+        border-radius: 0.25rem;
+        height: 1.625rem;
+        line-height: 1.625rem;
+        padding: 0 0.375rem;
+        font-size: 13px;
+        color: #fff;
+        border: none;
+        position: absolute;
+        right: 0.625rem;
+        i {
+          font-size: 1.125rem;
+          margin-left: 0.375rem;
+          line-height: 1.625rem;
+        }
+      }
+    }
+  }
+  //头部结束
+
+  #detail {
+    border-top: solid 0.0625rem #ebebeb;
+    border-bottom: solid 0.0625rem #ebebeb;
+    background-color: #fff;
+    li {
+      font-size: 16px;
+      margin-left: 0.875rem;
+      padding-right: 0.875rem;
+      display: flex;
+      line-height: 2.5rem;
+      border-top: solid 0.0625rem #ebebeb;
+      position: relative;
+      .iconfont {
+        color: #f15353;
+        font-size: 1.625rem;
+        margin-right: 0.375rem;
+      }
+      .fa {
+        line-height: 2.5rem;
+        color: #c9c9c9;
+        font-size: 24px;
+        position: absolute;
+        right: 0.875rem;
+      }
+    }
+    li:first-child {
+      border: none;
+    }
+  }
+  #power,
+  #more-power {
+    background-color: #fff;
+    margin-top: 0.625rem;
+    .title {
+      border-bottom: solid 0.0625rem #ebebeb;
+      line-height: 2.5rem;
+      display: flex;
+      padding: 0 0.875rem;
+      .spare {
+        width: 0.25rem;
+        height: 1rem;
+        background-color: #f15353;
+        border-radius: 0.0625rem;
+        margin-top: 0.75rem;
+        margin-right: 0.5rem;
+      }
+      h1 {
+        font-size: 16px;
+      }
+    }
+    .plugg {
+      display: flex;
+      flex-wrap: wrap;
+      .iconfont {
+        color: #f15353;
+        font-size: 3.5rem;
+      }
+      .plug-list {
+        width: 50%;
+        display: flex;
+        border-bottom: solid 0.0625rem #ebebeb;
+        border-right: solid 0.0625rem #ebebeb;
+        padding: 0.875rem 0.625rem;
+        .left {
+          padding-left: 0.5rem;
+          li {
+            width: 100%;
+            text-align: left;
+          }
+          .left_a {
+            font-size: 14px;
+            font-weight: bold;
+            height: 28px;
+            line-height: 22px;
+          }
+          .left_b {
+            font-size: 12px;
+            color: #8c8c8c;
+            height: 16px;
+            line-height: 16px;
+          }
+          .left_c {
+            color: #f15353;
+            font-size: 16px;
+            span {
+              font-size: 12px;
+            }
+          }
+        }
+        img {
+          width: 64px;
+          height: 64px;
+          margin: 0;
+        }
+      }
+      .plug-list:nth-child(2n) {
+        border-right: none;
+      }
+    }
+  }
+
+  // 图标
+  .icon-extension-prize {
+    background: url("../../../assets/images/extension/extension(1).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension-prize:before {
+    content: "";
+  }
+  .icon-love-value {
+    background: url("../../../assets/images/extension/extension(2).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-love-value:before {
+    content: "";
+  }
+  .icon-dengji01 {
+    background: url("../../../assets/images/extension/extension(3).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-dengji01:before {
+    content: "";
+  }
+  .icon-extension-chain {
+    background: url("../../../assets/images/extension/extension(4).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension-chain:before {
+    content: "";
+  }
+  .icon-extension-chain {
+    background: url("../../../assets/images/extension/extension(5).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension-chain:before {
+    content: "";
+  }
+  .icon-extension-share {
+    background: url("../../../assets/images/extension/extension(6).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension-share:before {
+    content: "";
+  }
+  .icon-gudong01 {
+    background: url("../../../assets/images/extension/extension(7).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-gudong01:before {
+    content: "";
+  }
+  .icon-Medal01 {
+    background: url("../../../assets/images/extension/extension(8).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-Medal01:before {
+    content: "";
+  }
+  .icon-integral-active {
+    background: url("../../../assets/images/extension/extension(9).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-integral-active:before {
+    content: "";
+  }
+  .icon-lecturer01 {
+    background: url("../../../assets/images/extension/extension(10).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-lecturer01:before {
+    content: "";
+  }
+  .icon-daka01 {
+    background: url("../../../assets/images/extension/extension(11).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-daka01:before {
+    content: "";
+  }
+  .icon-team-return {
+    background: url("../../../assets/images/extension/extension(12).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-team-return:before {
+    content: "";
+  }
+  .icon-mane01 {
+    background: url("../../../assets/images/extension/extension(13).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-mane01:before {
+    content: "";
+  }
+  .icon-seller-a {
+    background: url("../../../assets/images/extension/extension(14).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-seller-a:before {
+    content: "";
+  }
+  .icon-member-cash1 {
+    background: url("../../../assets/images/extension/extension(15).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-member-cash1:before {
+    content: "";
+  }
+  .icon-extension-list {
+    background: url("../../../assets/images/extension/extension(16).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension-list:before {
+    content: "";
+  }
+  .icon-quyu01 {
+    background: url("../../../assets/images/extension/extension(17).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-quyu01:before {
+    content: "";
+  }
+  .icon-weidian01 {
+    background: url("../../../assets/images/extension/extension(18).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-weidian01:before {
+    content: "";
+  }
+  .icon-xiaofei01 {
+    background: url("../../../assets/images/extension/extension(19).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-xiaofei01:before {
+    content: "";
+  }
+  .icon-extension-chain {
+    background: url("../../../assets/images/extension/extension(20).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension-chain:before {
+    content: "";
+  }
+  .icon-extension-sale {
+    background: url("../../../assets/images/extension/extension(21).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension-sale:before {
+    content: "";
+  }
+  .icon-daka01 {
+    background: url("../../../assets/images/extension/extension(22).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-daka01:before {
+    content: "";
+  }
+  .icon-zhaoshang01 {
+    background: url("../../../assets/images/extension/extension(23).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-zhaoshang01:before {
+    content: "";
+  }
+  .icon-extension-chain {
+    background: url("../../../assets/images/extension/extension(24).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension-chain:before {
+    content: "";
+  }
+  .icon-extension-manual-bon {
+    background: url("../../../assets/images/extension/extension(25).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension-manual-bon:before {
+    content: "";
+  }
+  .icon-team-bonus {
+    background: url("../../../assets/images/extension/extension(26).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-team-bonus:before {
+    content: "";
+  }
+  .icon-extension-chain {
+    background: url("../../../assets/images/extension/extension(27).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension-chain:before {
+    content: "";
+  }
+  .icon-fenxiao01 {
+    background: url("../../../assets/images/extension/extension(28).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-fenxiao01:before {
+    content: "";
+  }
+  .icon-extension_bonus {
+    background: url("../../../assets/images/extension/extension(29).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension_bonus:before {
+    content: "";
+  }
+  .icon-team_reward {
+    background: url("../../../assets/images/extension/extension(31).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-team_reward:before {
+    content: "";
+  }
+  .icon-global_reward {
+    background: url("../../../assets/images/extension/extension(30).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-global_reward:before {
+    content: "";
+  }
+  .icon-member_task {
+    background: url("../../../assets/images/extension/extension(34).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-number_assets {
+    background: url("../../../assets/images/extension/extension(33).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-member_task:before {
+    content: "";
+  }
+  .icon-number_assets:before {
+    content: "";
+  }
+
+  .icon-reward_record {
+    background: url("../../../assets/images/extension/extension(36).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-reward_record:before {
+    content: "";
+  }
+
+  .icon-area_manage {
+    background: url("../../../assets/images/extension/extension(39).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-area_manage:before {
+    content: "";
+  }
+  .icon-holder_reward {
+    background: url("../../../assets/images/extension/extension(38).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-holder_reward:before {
+    content: "";
+  }
+  .icon-extension_goods_order {
+    background: url("../../../assets/images/extension/extension(37).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension_goods_order:before {
+    content: "";
+  }
+  .icon-extension_team_reward {
+    background: url("../../../assets/images/extension/extension(40).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension_team_reward:before {
+    content: "";
+  }
+  .icon-extension_equity_reward {
+    background: url("../../../assets/images/extension/extension(41).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension_equity_reward:before {
+    content: "";
+  }
+  .icon-extension_distributors_management_reward {
+    background: url("../../../assets/images/extension/extension(42).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension_distributors_management_reward:before {
+    content: "";
+  }
+  .icon-extension_love_cycle_reward {
+    background: url("../../../assets/images/extension/extension(43).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension_love_cycle_reward:before {
+    content: "";
+  }
+  .icon-extension_team_admin_reward {
+    background: url("../../../assets/images/extension/extension(44).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension_team_admin_reward:before {
+    content: "";
+  }
+  .icon-extension_sorting_share_reward {
+    background: url("../../../assets/images/extension/extension(45).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension_sorting_share_reward:before {
+    content: "";
+  }
+  .icon-extension_admin_reward {
+    background: url("../../../assets/images/extension/extension(46).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension_admin_reward:before {
+    content: "";
+  }
+  .icon-extension_directly_share_reward {
+    background: url("../../../assets/images/extension/extension(47).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension_directly_share_reward:before {
+    content: "";
+  }
+  .icon-extension_place_reward {
+    background: url("../../../assets/images/extension/extension(50).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension_place_reward:before {
+    content: "";
+  }
+  .icon-red-packet {
+    background: url("../../../assets/images/extension/extension(49).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-red-packet::before {
+    content: "";
+  }
+  .icon-love-value-reward {
+    background: url("../../../assets/images/extension/extension(54).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-love-value-reward::before {
+    content: "";
+  }
+  .icon-member_integral {
+    background: url("../../../assets/images/extension/extension(52).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-member_integral::before {
+    content: "";
+  }
+  .icon-member-cashier {
+    background: url("../../../assets/images/extension/extension(51).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-member-cashier::before {
+    content: "";
+  }
+  .icon-dealer_mange_reward {
+    background: url("../../../assets/images/extension/extension(53).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-dealer_mange_reward::before {
+    content: "";
+  }
+  .icon-extension_agent_sharebonus {
+    background: url("../../../assets/images/extension/extension(55).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension_agent_sharebonus::before {
+    content: "";
+  }
+  .icon-member_bonus_pools {
+    background: url("../../../assets/images/member/member_a(81).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-member_bonus_pools::before {
+    content: "";
+  }
+  .icon-extension_ozyvip_mechanism {
+    background: url("../../../assets/images/extension/extension(57).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension_ozyvip_mechanism::before {
+    content: "";
+  }
+  .icon-extension_host_reward {
+    background: url("../../../assets/images/extension/extension(58).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension_teamsales_admin {
+    background: url("../../../assets/images/extension/extension(61).png")
+      no-repeat center;
+    background-size: 4rem;
+    width: 4rem;
+  }
+  .icon-extension_host_reward::before {
+    content: "";
+  }
+}
